@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GESTIÓN DE CLIENTES"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- NOMBRE -->
+
+        <EditText
+            android:id="@+id/edtNombreCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:hint="Nombre del cliente"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp" />
+
+        <!-- DOCUMENTO -->
+
+        <EditText
+            android:id="@+id/edtDocumentoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:hint="Documento"
+            android:inputType="text"
+            android:layout_marginBottom="12dp" />
+
+        <!-- TELEFONO -->
+
+        <EditText
+            android:id="@+id/edtTelefonoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:layout_marginBottom="12dp" />
+
+        <!-- CORREO -->
+
+        <EditText
+            android:id="@+id/edtCorreoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="20dp" />
+
+        <!-- GUARDAR -->
+
+        <Button
+            android:id="@+id/btnGuardarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="GUARDAR CLIENTE"
+            android:layout_marginBottom="12dp" />
+
+        <!-- CONSULTAR -->
+
+        <Button
+            android:id="@+id/btnConsultarClientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="CONSULTAR CLIENTES"
+            android:layout_marginBottom="12dp" />
+
+        <!-- ACTUALIZAR -->
+
+        <Button
+            android:id="@+id/btnActualizarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="ACTUALIZAR CLIENTE"
+            android:layout_marginBottom="12dp" />
+
+        <!-- ELIMINAR -->
+
+        <Button
+            android:id="@+id/btnEliminarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="ELIMINAR CLIENTE" />
+
+    </LinearLayout>
+
+</ScrollView>

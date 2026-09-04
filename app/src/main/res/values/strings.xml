@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SistemaFichas</string>
+
+    <!-- Títulos -->
+    <string name="title_clientes">GESTIÓN DE CLIENTES</string>
+    <string name="title_fichas">GESTIÓN DE FICHAS TÉCNICAS</string>
+    <string name="title_pedidos">REGISTRO DE PEDIDOS</string>
+    <string name="title_reportes">REPORTES DE PEDIDOS</string>
+    <string name="title_home">NUBELUZ S.A</string>
+    <string name="subtitle_home">Menú principal</string>
+
+    <!-- Botones -->
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="btn_consultar">CONSULTAR</string>
+    <string name="btn_actualizar">ACTUALIZAR</string>
+    <string name="btn_eliminar">ELIMINAR</string>
+    <string name="btn_volver">VOLVER</string>
+    <string name="btn_verificar">VERIFICAR</string>
+
+    <string name="btn_guardar_cliente">GUARDAR CLIENTE</string>
+    <string name="btn_consultar_cliente">CONSULTAR CLIENTE</string>
+    <string name="btn_actualizar_cliente">ACTUALIZAR CLIENTE</string>
+    <string name="btn_eliminar_cliente">ELIMINAR CLIENTE</string>
+
+    <string name="btn_guardar_ficha">GUARDAR FICHA</string>
+    <string name="btn_consultar_ficha">CONSULTAR FICHA</string>
+    <string name="btn_actualizar_ficha">ACTUALIZAR FICHA</string>
+    <string name="btn_eliminar_ficha">ELIMINAR FICHA</string>
+
+    <string name="btn_crear_pedido">CREAR PEDIDO</string>
+    <string name="btn_verificar_cliente">VERIFICAR CLIENTE</string>
+
+    <string name="btn_fichas">GESTIÓN DE FICHAS</string>
+    <string name="btn_clientes">CLIENTES</string>
+    <string name="btn_pedidos">REGISTRO DE PEDIDOS</string>
+    <string name="btn_reportes">REPORTES</string>
+    <string name="btn_cerrar_sesion">CERRAR SESIÓN</string>
+
+    <!-- Hints -->
+    <string name="hint_nombre_cliente">Nombre del cliente</string>
+    <string name="hint_documento">Documento</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_correo">Correo electrónico</string>
+
+    <string name="hint_codigo_ficha">Código de Ficha</string>
+    <string name="hint_nombre_prenda">Nombre de la prenda</string>
+    <string name="hint_categoria">Categoría (Ej: Caballero, Dama)</string>
+    <string name="hint_tela">Tipo de Tela</string>
+    <string name="hint_observaciones">Observaciones</string>
+
+    <string name="hint_fecha">Fecha (DD/MM/AAAA)</string>
+    <string name="hint_total">Valor Total $</string>
+    <string name="hint_correo_login">Ingrese su correo</string>
+    <string name="hint_password_login">Ingrese su contraseña</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">INICIAR SESIÓN</string>
+
+    <!-- Mensajes -->
+    <string name="msg_cliente_no_seleccionado">Cliente: No seleccionado</string>
+    <string name="msg_cliente_prefijo">Cliente: %1$s</string>
+    <string name="msg_confirmar_eliminar_cliente">¿Está seguro de que desea eliminar al cliente con documento %1$s\?</string>
+    <string name="msg_confirmar_eliminar_ficha">¿Seguro que desea eliminar la ficha %1$s\?</string>
+</resources>

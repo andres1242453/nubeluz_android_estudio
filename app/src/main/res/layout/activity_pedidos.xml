@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- TÍTULO -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="GESTIÓN DE PEDIDOS"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- DOCUMENTO DEL CLIENTE -->
+
+        <EditText
+            android:id="@+id/edtDocClientePedido"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="Documento del cliente"
+            android:textColor="@android:color/black"
+            android:textColorHint="#777777"
+            android:inputType="number"
+            android:autofillHints="none" />
+
+        <!-- NOMBRE DEL CLIENTE -->
+
+        <TextView
+            android:id="@+id/tvNombreClientePedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Cliente no seleccionado"
+            android:textColor="@android:color/black"
+            android:textStyle="italic" />
+
+        <!-- BOTÓN VERIFICAR CLIENTE -->
+
+        <Button
+            android:id="@+id/btnVerificarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:text="VERIFICAR CLIENTE" />
+
+        <!-- FECHA -->
+
+        <EditText
+            android:id="@+id/edtFechaPedido"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="Fecha del pedido"
+            android:textColor="@android:color/black"
+            android:textColorHint="#777777"
+            android:inputType="date"
+            android:autofillHints="none" />
+
+        <!-- TOTAL -->
+
+        <EditText
+            android:id="@+id/edtTotalPedido"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="Total del pedido"
+            android:textColor="@android:color/black"
+            android:textColorHint="#777777"
+            android:inputType="numberDecimal"
+            android:autofillHints="none" />
+
+        <!-- GUARDAR PEDIDO -->
+
+        <Button
+            android:id="@+id/btnGuardarPedido"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:text="GUARDAR PEDIDO" />
+
+    </LinearLayout>
+
+</ScrollView>
